@@ -75,8 +75,8 @@ class Rope
     let posB = {x:0, y:0};
     if (constraint.bodyB) {
       posB = constraint.bodyB.position;
-    }
-    push()
+    };
+    push();
     strokeWeight(4);
     stroke(255);
     line(
@@ -86,8 +86,8 @@ class Rope
       posB.y + offsetB.y
     );
     pop();
-      }
-  }
+      };
+  };
   
     
-  }
+  };
